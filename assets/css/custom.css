@@ -1,0 +1,248 @@
+/*********custom css************/
+p{
+	text-align:justify;
+}
+.header-overlay
+{
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.contact-form .form-group input
+{
+	font-size:14px; line-height:45px;
+}
+.portfolio-menu ul li
+{
+	font-weight:lighter;
+}
+.about-right p
+{
+	color:#777; margin:0 0 20px 0;  text-align:justify;
+}
+#service
+{
+	padding-top:110px;
+}
+.main-navbar
+{
+	border-bottom:0; 
+}
+.main-nav li
+{
+	border-bottom:3px solid #fff; bottom:1px; transition:0.28s;
+}
+.main-nav li.active 
+{
+	border-bottom: 3px solid #087f9d;
+}
+.service-content
+{
+	font-size:14px; font-weight:light; padding-right:15px; text-align:justify;
+}
+.service-content p 
+{
+	margin-bottom:15px;line-height:25px; font-size:15px;
+}
+ul.service-table
+{
+	text-align:left; margin-top:25px;
+}
+ul.service-table li 
+{
+	padding:20px 0; font-size:16px; color:#333; text-align:left;
+}
+ul.service-table li span 
+{
+	width:60px; height:60px; /*border:1px solid #ddd; box-shadow:inset 1px 1px 3px #666;  border-radius:50%; */text-align:center; line-height:45px; 
+	background:rgba(8,127,157,0.5); display:inline-block; margin:0 7px 0 0; 
+	vertical-align: middle; border-radius:50%; line-height:55px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+ul.service-table li:hover span 
+{
+	webkit-transform: translateY(-7px);
+    transform: translateY(-7px); background:rgba(8,127,157,1);
+}
+
+ul.service-table li:hover span:before , ul.service-table li:focus span:before ,ul.service-table li:active span:before 
+{
+	    opacity: 1;
+    -webkit-transform: translateY(7px);
+    transform: translateY(7px);
+}
+ul.service-table li span:before
+{
+	pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+
+}
+.navbar-brand 
+{
+	width:100%; margin-right:0; height:auto;line-height:70px; padding:15px 0;
+}
+#navbar
+{
+	width:78%; 
+}
+
+.main-navbar
+{
+	height:70px;
+}
+.main-nav li a, .main-nav li a.less-padding
+{
+	padding:24px 20px !important;
+}
+.footer-bottom
+{
+	padding:20px 0;
+}
+.footer-bottom p
+{
+	font-size:13px;
+}
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+#testimonial
+{
+	padding:0 0 50px 0; height:auto;
+}
+
+.header-content h2 span
+{
+	color:#fff;
+}
+.portfolio-menu ul li.active {
+    color: #087f9d;
+    border-top:2px solid #087f9d; border-bottom:2px solid #087f9d;
+}
+/*==================responsive css=======================*/
+
+  /* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+#navbar
+{
+	width:72%; 
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-default .navbar-toggle
+{
+	margin-right:15px; margin-top:15px;
+}
+.navbar-brand
+{
+	width:70%; padding:15px 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+{
+	    background-color: #087f9d;
+    border-color: #087f9d;
+    color: #fff;
+}
+#navbar
+{
+	width:62%; margin:0; padding:0;
+}
+.main-nav
+{
+	text-align:left;
+}
+.main-nav li a, .main-nav li a.less-padding
+{
+	padding:24px 14px !important;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.navbar-default .navbar-toggle
+{
+	margin-right:15px; margin-top:15px;
+}
+.navbar-brand
+{
+	width:40%; padding:15px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+{
+	    background-color: #087f9d;
+    border-color: #087f9d;
+    color: #fff;
+}
+ul.service-table
+{
+	margin-top:20px;
+}
+.testimonial-area
+{
+	padding:50px 0;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.navbar-default .navbar-toggle
+{
+	margin-right:15px; margin-top:15px;
+}
+.navbar-brand
+{
+	width:70%; padding:15px;
+}
+.main-nav li a, .main-nav li a.less-padding
+{
+	padding:10px !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+{
+	    background-color: #087f9d;
+    border-color: #087f9d;
+    color: #fff;
+}
+ul.service-table
+{
+	margin-top:20px;
+}
+.testimonial-area
+{
+	padding:50px 0;
+}
+}
